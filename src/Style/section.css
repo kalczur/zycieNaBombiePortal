@@ -1,0 +1,55 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.section__adBanner{
+    width: 90%;
+    margin: 40px auto;
+    height: 450px;
+    background-image: url('../images/Tapeta_01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section__adBanner__header{
+    font-family: 'Russo One', sans-serif;
+    text-align: center;
+    display: block;
+    color: #253d77;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 55px;
+    letter-spacing: 5px;
+    text-shadow: 2px 4px 5px rgba(255, 252, 252, 0.212);
+}
+.section__adBanner__header__about{
+    font-family: "Roboto";
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
+}
+.section__about{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.section__about__header{
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-style: italic;
+    color: #121a2e;
+    text-shadow: 0em 0em 0.4em rgba(40, 81, 114, 0.404);
+    padding-top:40px ;
+    padding-left:130px ;
+}
