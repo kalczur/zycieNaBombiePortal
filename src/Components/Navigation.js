@@ -15,7 +15,7 @@ const Navigation = () => {
 
                 <div className="navigation__navBar__logoContainer">
                     <img src={logo} alt="logo" className="navigation__navBar__logoContainer__logo" />
-                    <NavLink to="/" className="navigation__navBar__logoContainer__logoHeader">Zycie na bombie</NavLink>
+                    <NavLink to="/" className="navigation__navBar__logoContainer__logoHeader">Życie na bombie</NavLink>
                 </div>
 
                 <ul className='navigation__navBar__navList'>

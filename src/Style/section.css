@@ -16,19 +16,20 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    box-shadow: 0 8px 6px -6px black;
 }
 .section__adBanner__header{
     font-family: 'Russo One', sans-serif;
     text-align: center;
     display: block;
-    color: #253d77;
+    color: #325199;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 55px;
     letter-spacing: 5px;
-    text-shadow: 2px 4px 5px rgba(255, 252, 252, 0.212);
+    
 }
-.section__adBanner__header__about{
+.section__adBanner__about{
     font-family: "Roboto";
     letter-spacing: 2px;
     font-size: 30px;
@@ -49,7 +50,48 @@
     letter-spacing: 10px;
     font-style: italic;
     color: #121a2e;
-    text-shadow: 0em 0em 0.4em rgba(40, 81, 114, 0.404);
+    text-shadow: 0em 0em 0.4em rgba(52, 96, 129, 0.342);
     padding-top:40px ;
     padding-left:130px ;
+    display: block;
+}
+
+.section__about__container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+.section__about__container__text{
+    width: 100%;
+    font-family: "Roboto";
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(73, 75, 77);
+}
+.section__about__container__element{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.section__about__container__element__photoOne,.section__about__container__element__photoTwo,.section__about__container__element__photoThree{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.section__about__container__element__photoOne
+{
+    background-image: url('../images/big8be503cd32d54b3190e2795ac387969f.png');
+}
+.section__about__container__element__photoTwo{
+    background-image: url('../images/sterydy_na_silowni.jpg');
+}
+.section__about__container__element__photoThree{
+    background-image: url('../images//csm_Crossfit_0b0149550f.jpg');
 }

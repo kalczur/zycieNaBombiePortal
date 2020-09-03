@@ -47,8 +47,9 @@
     font-family: var(--font--roboto);
     font-size: 20px;
     padding: 40px 20px;
-    color:rgb(6, 165, 177);
+    color:#1b2847;
     position: relative;
+    font-weight: 600;
    
 }
 .navigation__navBar__navList__listElements:hover{
@@ -62,6 +63,9 @@
     width: 45px;
 }
 @media (max-width:980px){
+
+    
+
     .navigation__navBar{
         flex-direction:column;
         align-content: center;
@@ -72,6 +76,7 @@
     .navigation__navBar__navList{
         width: 100%;
         justify-content: center;
+     
     }
     .navigation__navBar__navList__listElements__element{
         text-align: center;
