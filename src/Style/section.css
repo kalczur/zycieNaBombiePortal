@@ -27,6 +27,7 @@
     text-decoration: none;
     font-size: 55px;
     letter-spacing: 5px;
+    text-shadow: -1px -1px 1px rgba(255,255,255,.1), 1px 1px 1px rgba(0,0,0,.5);
     
 }
 .section__adBanner__about{
@@ -54,6 +55,7 @@
     padding-top:40px ;
     padding-left:130px ;
     display: block;
+    
 }
 
 .section__about__container{

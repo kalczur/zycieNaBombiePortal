@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
+import { NavLink } from 'react-router-dom';
 import '../Style/instagram.css'
 const Instagram = () => {
     return (
-        <div className="instagram">
+        <a href='https://www.instagram.com/zycie.na.bombie/' target="_blank" className="instagram">
+
             <i class="fab fa-instagram"></i>
-        </div>
+            <p className="instagram__text" >Sprawdz</p>
+
+        </a>
     );
 }
 
