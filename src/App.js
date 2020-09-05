@@ -1,16 +1,16 @@
 import React from 'react';
 import Navigation from './Components/Navigation'
 import Section from './Components/Section'
-import Footer from './Components/Footer'
+import Instagram from './Components/Instagram'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Instagram />
         <Navigation />
         <Section />
-        <Footer />
       </div>
     </Router>
   );

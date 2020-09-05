@@ -25,13 +25,16 @@
     letter-spacing: 3px;
     border-bottom: 1px solid rgb(160, 158, 158);
 }
+
 .navigation__navBar__logoContainer__logoHeader{
     font-family: var(--font--Russo);
     color: #1F3260;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 35px;
-
+    align-self: center;
+    
+    
 }
 .navigation__navBar__navList{
     display:flex;
@@ -58,13 +61,13 @@
 
 .navigation__navBar__logoContainer{
     padding: 16px 0px 15px 0px;
+    position: relative;
+    display: flex;
 }
 .navigation__navBar__logoContainer__logo{
-    width: 45px;
+    height: 70px;
 }
 @media (max-width:980px){
-
-    
 
     .navigation__navBar{
         flex-direction:column;
@@ -72,6 +75,8 @@
     }
     .navigation__navBar__logoContainer{
         text-align: center;
+        align-self: center;
+        justify-self: center;
     }
     .navigation__navBar__navList{
         width: 100%;
@@ -91,5 +96,9 @@
     .navigation__navBar__navList{
         flex-direction: column;
         align-items: center;
+        padding:0;
+    }
+    .navigation__navBar__navList__listElements__element{
+        font-size: 20px;
     }
 }

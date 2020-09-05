@@ -59,9 +59,11 @@
 .section__about__container{
     width: 90%;
     margin: auto;
+    margin-bottom: 60px;
     display: flex;
     justify-content: space-around;
     padding-top: 50px;
+    
 }
 .section__about__container__text{
     width: 100%;
@@ -74,6 +76,7 @@
     display: flex;
     flex-direction: column;
     width: 25%;
+    
 }
 .section__about__container__element__photoOne,.section__about__container__element__photoTwo,.section__about__container__element__photoThree{
     height: 200px;
@@ -94,4 +97,24 @@
 }
 .section__about__container__element__photoThree{
     background-image: url('../images//csm_Crossfit_0b0149550f.jpg');
+}
+@media (max-width:622px)
+{
+    .section__about__header{
+        text-align: center;
+        padding-left: 0;
+    }
+    .section__about__container{
+        flex-direction: column;
+    }
+    .section__about__container__element{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+}
+@media (max-width:622px)
+{
+    .section__about__header{
+       font-size: 40px;
+    }
 }

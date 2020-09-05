@@ -24,7 +24,7 @@ const Navigation = () => {
                         <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Produkty</NavLink>
                     </li>
                     <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Jak Zamówić?</NavLink>
+                        <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Jak Zamówić</NavLink>
                     </li>
                     <li className='navigation__navBar__navList__listElements'>
                         <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Blog</NavLink>
