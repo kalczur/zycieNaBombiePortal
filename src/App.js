@@ -4,6 +4,7 @@ import Section from "./Components/Section";
 import Contact from "./Components/Contact";
 import Instagram from "./Components/Instagram";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import HowBuy from "./Components/HowBuy";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
                 <Switch>
                     <Route path="/" exact component={Section} />
                     <Route path="/kontakt" exact component={Contact} />
+                    <Route path='/jakZamowic' exact component={HowBuy}></Route>
                 </Switch>
             </div>
         </Router>

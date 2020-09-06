@@ -1,0 +1,23 @@
+.howBuy{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.howBuy__header{
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-style: italic;
+    color: #121a2e;
+    text-shadow: 0em 0em 0.4em rgba(52, 96, 129, 0.342);
+    padding-top:40px ;
+    display: block;
+    text-align: center;
+}
+.howBuy__container{
+    display: flex;
+    width: 100%;
+}

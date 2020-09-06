@@ -6,7 +6,7 @@
 .section__adBanner{
     width: 100%;
     height: 450px;
-    background-image: url('../images/Tapeta_01.jpg');
+    background-image: url('../images/pexels-anush-gorak-1431282.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
@@ -90,13 +90,13 @@
 }
 .section__about__container__element__photoOne
 {
-    background-image: url('../images/big8be503cd32d54b3190e2795ac387969f.png');
+    background-image: url('../images/ibrahim-boran-zsKFQs2kDpM-unsplash.jpg');
 }
 .section__about__container__element__photoTwo{
-    background-image: url('../images/sterydy_na_silowni.jpg');
+    background-image: url('../images/pexels-karolina-grabowska-4047148.jpg');
 }
 .section__about__container__element__photoThree{
-    background-image: url('../images//csm_Crossfit_0b0149550f.jpg');
+    background-image: url('../images/pexels-victor-freitas-949126.jpg');
 }
 @media (max-width:622px)
 {
