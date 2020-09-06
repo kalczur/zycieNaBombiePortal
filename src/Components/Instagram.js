@@ -5,7 +5,7 @@ const Instagram = () => {
     return (
         <a href='https://www.instagram.com/zycie.na.bombie/' target="_blank" className="instagram">
 
-            <i class="fab fa-instagram"></i>
+            <i className="fab fa-instagram"></i>
             <p className="instagram__text" >Sprawdz</p>
 
         </a>
