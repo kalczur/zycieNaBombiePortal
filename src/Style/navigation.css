@@ -39,6 +39,7 @@
 .navigation__navBar__navList{
     display:flex;
     padding: 30px 0px 10px 0px;
+   position: relative;
     
 }
 .navigation__navBar__navList__listElements{
@@ -55,8 +56,21 @@
     font-weight: 600;
    
 }
-.navigation__navBar__navList__listElements:hover{
-    transform: translateX(-20px);
+.navigation__navBar__navList__listElements__elementButton{
+    text-decoration: none;
+    font-family: var(--font--roboto);
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 0px 20px;
+    color:#1b2847;
+    position: relative;
+    font-weight: 600;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+.navigation__navBar__navList__listElements__element:hover,.navigation__navBar__navList__listElements__elementButton:hover{
+   color: #236c9c;
 }
 
 .navigation__navBar__logoContainer{
@@ -67,6 +81,31 @@
 .navigation__navBar__logoContainer__logo{
     height: 70px;
 }
+
+.navigation__navBar__navList__listElements__dropdownMenu{
+    position: absolute;
+    box-shadow: 0 8px 6px -6px black;
+    left: 10%;
+    top:75%;
+    display: none;
+    flex-direction: column;
+    
+}
+.navigation__navBar__navList__listElements__dropdownMenu_element{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Roboto';
+    padding: 10px 10px;
+    color:#1b2847; ;
+    background-color: white;
+    font-weight: 600;
+}
+.dropDownactive{
+    display: flex;
+}
+
+
+
 @media (max-width:980px){
 
     .navigation__navBar{
