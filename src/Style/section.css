@@ -4,14 +4,12 @@
     width: 100%;
 }
 .section__adBanner{
-    width: 90%;
-    margin: 40px auto;
+    width: 100%;
     height: 450px;
     background-image: url('../images/Tapeta_01.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover ;
-    border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;

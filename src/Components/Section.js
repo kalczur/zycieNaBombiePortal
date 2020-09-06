@@ -9,7 +9,7 @@ const Section = () => {
                 <h2 className="section__adBanner__about">Witamy na stronie poświęconej środkom anabolicznym. </h2>
             </div>
             <div className="section__about">
-                <h2 className="section__about__header">PRODUKTY, SPRAWDZONE <br /> PRZEZ SPORTOWCOW</h2>
+                <h2 className="section__about__header">PRODUKTY, SPRAWDZONE <br /> PRZEZ SPORTOWCÓW</h2>
                 <div className="section__about__container">
                     <div className="section__about__container__element">
                         <div className="section__about__container__element__photoOne"></div>

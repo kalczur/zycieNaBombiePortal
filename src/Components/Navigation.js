@@ -21,16 +21,16 @@ const Navigation = () => {
                 <ul className='navigation__navBar__navList'>
 
                     <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Produkty</NavLink>
+                        <NavLink to='/produkty' className='navigation__navBar__navList__listElements__element'>Produkty</NavLink>
                     </li>
                     <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Jak Zamówić</NavLink>
+                        <NavLink to='/jakZamowic' className='navigation__navBar__navList__listElements__element'>Jak Zamówić</NavLink>
                     </li>
                     <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Blog</NavLink>
+                        <NavLink to='/blog' className='navigation__navBar__navList__listElements__element'>Blog</NavLink>
                     </li>
                     <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/cennik' className='navigation__navBar__navList__listElements__element'>Kontakt</NavLink>
+                        <NavLink to='/kontakt' className='navigation__navBar__navList__listElements__element'>Kontakt</NavLink>
                     </li>
                 </ul>
 
