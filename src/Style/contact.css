@@ -1,0 +1,18 @@
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact__form__label {
+    opacity: 0;
+}
+
+.contact__form__input {
+    width: 60vw;
+    height: 35px;
+}
+
+.contact__form__input:focus ~ .contact__form__label {
+    opacity: 1;
+}
