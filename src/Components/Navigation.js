@@ -4,14 +4,14 @@ import { NavLink } from 'react-router-dom';
 import logo from '../images/doctor.png'
 const Navigation = () => {
 
-    useEffect(() => {
-        const productsMenu = document.querySelector('.navigation__navBar__navList__listElements__elementButton');
-        const productsDropMenu = document.querySelector('.navigation__navBar__navList__listElements__dropdownMenu');
+    // useEffect(() => {
+    //     const productsMenu = document.querySelector('.navigation__navBar__navList__listElements__elementButton');
+    //     const productsDropMenu = document.querySelector('.navigation__navBar__navList__listElements__dropdownMenu');
 
-        productsMenu.addEventListener('click', () => {
-            productsDropMenu.classList.toggle('dropDownactive');
-        })
-    });
+    //     productsMenu.addEventListener('click', () => {
+    //         productsDropMenu.classList.toggle('dropDownactive');
+    //     })
+    // });
 
     return (
 
