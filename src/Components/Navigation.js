@@ -34,7 +34,7 @@ const Navigation = () => {
                     <li className='navigation__navBar__navList__listElements'>
                         <button className='navigation__navBar__navList__listElements__elementButton'>Produkty</button>
                         <div className='navigation__navBar__navList__listElements__dropdownMenu'>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Maximus Pharma</NavLink>
+                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/lol'>Maximus Pharma</NavLink>
                             <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Peptydy Magnus</NavLink>
                             <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>SARMy Anabolix Labs</NavLink>
                             <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Produkty Apteczne</NavLink>
