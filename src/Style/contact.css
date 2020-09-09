@@ -5,18 +5,6 @@
   justify-content: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.contact_description {
-  font-size: 25px;
-  width: 50%;
-  font-family: 'Roboto';
-  font-weight: 300;
-  letter-spacing: 2px;
-  margin-top: 20px;
-  align-self: center;
-  text-align: center;
-  animation: fromShade 1s;
-}
-
 .contact_header {
   font-size: 70px;
   margin: 10px 0;
@@ -25,9 +13,7 @@
   font-family: 'Roboto';
   font-style: italic;
   letter-spacing: 5px;
-
 }
-
 .contact__form {
   display: flex;
   margin: 50px 0;
@@ -35,9 +21,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80vw;
+  width: 50vw;
   border-radius: 8px;
-  background: #e6eef37a;
+  background: #e6eef3be;
   border: 1px solid grey;
   -webkit-box-shadow: 0px 0px 29px -1px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 29px -1px rgba(0, 0, 0, 0.75);
@@ -45,10 +31,10 @@
   animation: fromShade 1s;
 }
 
-.form-group {
+.contact__form__group {
   margin: 5px;
   padding: 5px;
-  width: 90%;
+  width: 70%;
   /*background: #f3faff;*/
 }
 
@@ -102,14 +88,13 @@
   opacity: 1;
   right: 0;
 }
-@keyframes fromShade
-{
-    0%{
-        transform: translateX(-10%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0%);
-        opacity: 1;
-    }
+@keyframes fromShade {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }

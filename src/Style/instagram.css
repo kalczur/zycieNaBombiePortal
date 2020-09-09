@@ -29,6 +29,7 @@
   position: absolute;
   text-decoration: none;
   bottom: 0;
+  top: 85%;
   left: 50%;
   transform: translateY(50%) translateX(-50%);
   font-family: 'Roboto';

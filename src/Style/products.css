@@ -1,5 +1,8 @@
-.products__list {
+.products {
+  padding: 10px;
+}
+.products_top {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-items: center;
 }

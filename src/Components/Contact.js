@@ -18,20 +18,16 @@ const Contact = () => {
 
   return (
     <div className="contact">
-<<<<<<< HEAD
       <h1 className="component-header">KONTAKT</h1>
-=======
-      <h1 className="contact_header">KONTAKT</h1>
->>>>>>> 854643d02e9715917438fe41fd98e2e37b6a21ff
 
-      <h2 className="contact_description">
+      <h2 className="component-description">
         Potrzebujesz pomocy, masz pytania związane z dopingiem? Napisz do nas, jesteśmy do Twojej dyspozycji.
         Odpowiadamy najszybciej jak to możliwe.
       </h2>
-      <h2 className="contact_description">Skorzystaj z naszego formularza kontaktowego:</h2>
+      <h2 className="component-description">Skorzystaj z naszego formularza kontaktowego:</h2>
 
       <form className="contact__form" method="POST" onSubmit={handleSubmit}>
-        <div className="form-group">
+        <div className="contact__form__group">
           <label htmlFor="name" className="contact__form__label">
             Imie i nazwisko (wymagane)
           </label>
@@ -45,7 +41,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className="contact__form__group">
           <label htmlFor="exampleInputEmail1" className="contact__form__label">
             Adres e-mail (wymagane)
           </label>
@@ -60,7 +56,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className="contact__form__group">
           <label htmlFor="topic" className="contact__form__label">
             Temat
           </label>
@@ -74,7 +70,7 @@ const Contact = () => {
           />
         </div>
 
-        <div className="form-group">
+        <div className="contact__form__group">
           <label htmlFor="message" className="contact__form__label">
             Treść wiadomości
           </label>
@@ -92,9 +88,6 @@ const Contact = () => {
           <span>Wyślij </span>
         </button>
       </form>
-
-
-
     </div>
   );
 };
