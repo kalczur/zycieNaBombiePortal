@@ -111,7 +111,7 @@
     display: flex;
 }
 .navigation__navBar__navList__listElements__Mobile{
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     text-align: center;
