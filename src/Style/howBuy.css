@@ -4,6 +4,7 @@
   width: 100%;
 }
 
+<<<<<<< HEAD
 .howBuy__container {
   display: flex;
   width: 100%;
@@ -13,6 +14,32 @@
   justify-content: center;
   align-content: center;
   background-color: #ffffff;
+=======
+
+.howBuy__header{
+    font-size: 55px;
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 10px;
+    font-style: italic;
+    color: #121a2e;
+    padding-top:40px ;
+    display: block;
+    text-align: center;
+   
+}
+.howBuy__container{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    background-color: #ffffff;
+    animation: fromShade 1s;
+    
+>>>>>>> 854643d02e9715917438fe41fd98e2e37b6a21ff
 }
 .howBuy__container__text {
   width: 50%;
@@ -38,4 +65,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+@keyframes fromShade
+{
+    0%{
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0%);
+        opacity: 1;
+    }
 }
