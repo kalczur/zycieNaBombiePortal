@@ -33,15 +33,7 @@ const Navigation = () => {
 
                     <li className='navigation__navBar__navList__listElements'>
                         <button className='navigation__navBar__navList__listElements__elementButtonDesktop'>Produkty</button>
-                        <button className='navigation__navBar__navList__listElements__elementButtonNav'>Produkty</button>
-                        <div className='navigation__navBar__navList__listElements__Mobile'>
-                            <NavLink className='navigation__navBar__navList__listElements__Mobile_element' to='/lol'>Maximus Pharma</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__Mobile_element' to='/'>Peptydy Magnus</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__Mobile_element' to='/'>SARMy Anabolix Labs</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__Mobile_element' to='/'>Produkty Apteczne</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__Mobile_element' to='/'>Środki na potencję</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__Mobile_element' to='/'>Pozostałe</NavLink>
-                        </div>
+
                         <div className='navigation__navBar__navList__listElements__dropdownMenu'>
                             <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/lol'>Maximus Pharma</NavLink>
                             <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Peptydy Magnus</NavLink>

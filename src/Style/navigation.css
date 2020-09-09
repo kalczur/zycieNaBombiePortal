@@ -70,10 +70,11 @@
     cursor: pointer;
     text-align: center;
 }
-.navigation__navBar__navList__listElements__elementButtonNav{
-    display: none;
+.navigation__navBar__navList__listElements__elementButtonDesktop{
+    display: block;
 }
-.navigation__navBar__navList__listElements__element:hover,.navigation__navBar__navList__listElements__elementButton:hover{
+
+.navigation__navBar__navList__listElements__element:hover,.navigation__navBar__navList__listElements__elementButtonDesktop:hover{
    color: #236c9c;
 }
 
@@ -94,8 +95,7 @@
     display: none;
     flex-direction: column;
     z-index:3;
-
-    
+    display: none;
 }
 .navigation__navBar__navList__listElements__dropdownMenu_element{
     text-decoration: none;
@@ -107,23 +107,8 @@
     font-weight: 600;
     border-bottom: 1px solid rgb(119, 119, 119);
 }
-.navigation__navBar__navList__listElements__elementButton:focus-within +.navigation__navBar__navList__listElements__dropdownMenu,.navigation__navBar__navList__listElements__dropdownMenu:hover {
+.navigation__navBar__navList__listElements__elementButtonDesktop:focus +.navigation__navBar__navList__listElements__dropdownMenu,.navigation__navBar__navList__listElements__dropdownMenu:hover {
     display: flex;
-}
-.navigation__navBar__navList__listElements__Mobile{
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    top: 0;
-}
-.navigation__navBar__navList__listElements__Mobile_element{
-    text-decoration: none;
-    font-size: 15px;
-    font-family: 'Roboto';
-    padding: 10px 10px;
-    color:#1b2847; ;
-    font-weight: 600;
 }
 
 
