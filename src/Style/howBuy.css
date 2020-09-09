@@ -1,10 +1,20 @@
-.howBuy{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    
+.howBuy {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
+<<<<<<< HEAD
+.howBuy__container {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff;
+=======
 
 .howBuy__header{
     font-size: 55px;
@@ -29,32 +39,32 @@
     background-color: #ffffff;
     animation: fromShade 1s;
     
+>>>>>>> 854643d02e9715917438fe41fd98e2e37b6a21ff
 }
-.howBuy__container__text{
-    width: 50%;
-    font-family: "Roboto";
-    font-weight: 300;
-    letter-spacing: 2px;
-  
+.howBuy__container__text {
+  width: 50%;
+  font-family: 'Roboto';
+  font-weight: 300;
+  letter-spacing: 2px;
 }
-.howBuy__container__list__element{
-        color: rgb(80, 81, 85);
-        width: 60%;
-        margin: 0 0 30px 0;
-        padding: 13px;
-        position: relative;
-        top: 1em;
-        padding-left: 2em;
-        font-size: 1.2em;
-        font-family: 'Roboto';
-        font-weight: 300;
-        line-height: 30px;
+.howBuy__container__list__element {
+  color: rgb(80, 81, 85);
+  width: 60%;
+  margin: 0 0 30px 0;
+  padding: 13px;
+  position: relative;
+  top: 1em;
+  padding-left: 2em;
+  font-size: 1.2em;
+  font-family: 'Roboto';
+  font-weight: 300;
+  line-height: 30px;
 }
-.howBuy__container__list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.howBuy__container__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 @keyframes fromShade
 {
