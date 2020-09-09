@@ -10,6 +10,7 @@
   border-radius: 20%;
   cursor: pointer;
   transition: 0.2s linear;
+  z-index: 3;
 }
 .fa-instagram {
   color: white;

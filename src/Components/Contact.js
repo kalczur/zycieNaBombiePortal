@@ -18,13 +18,13 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h1 className="howBuy__header">KONTAKT</h1>
+      <h1 className="contact_header">KONTAKT</h1>
 
-      <b2 className="contact_description">
+      <h2 className="contact_description">
         Potrzebujesz pomocy, masz pytania związane z dopingiem? Napisz do nas, jesteśmy do Twojej dyspozycji.
         Odpowiadamy najszybciej jak to możliwe.
-      </b2>
-      <b2 className="contact_description">Skorzystaj z naszego formularza kontaktowego:</b2>
+      </h2>
+      <h2 className="contact_description">Skorzystaj z naszego formularza kontaktowego:</h2>
 
       <form className="contact__form" method="POST" onSubmit={handleSubmit}>
         <div className="form-group">
@@ -89,11 +89,8 @@ const Contact = () => {
         </button>
       </form>
 
-      <b2 className="contact_description">Lub napisz bezpośrednio na maila: Zycie.na.bombie@tutanota.com</b2>
-      <b2 className="contact_description">Zapraszamy również do śledzenia nas na Instagramie:</b2>
-      <b2 className="contact_description">
-        <a href="https://www.instagram.com/zycie.na.bombie">instagram</a>
-      </b2>
+
+
     </div>
   );
 };
