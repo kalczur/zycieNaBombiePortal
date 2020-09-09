@@ -38,6 +38,10 @@ a {
   text-decoration: none !important;
 }
 
+.datatable {
+  width: 80% !important;
+}
+
 @media (max-width: 500px) {
   .component-header {
     font-size: 30px;

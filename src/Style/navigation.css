@@ -76,7 +76,6 @@
 .navigation__navBar__navList__listElements__elementButton:hover {
   color: #236c9c;
 }
-<<<<<<< HEAD
 
 .navigation__navBar__logoContainer {
   padding: 16px 0px 15px 0px;
@@ -111,28 +110,6 @@
   + .navigation__navBar__navList__listElements__dropdownMenu,
 .navigation__navBar__navList__listElements__dropdownMenu:hover {
   display: flex;
-=======
-.navigation__navBar__navList__listElements__elementButton,.navigation__navBar__navList__listElements__elementButtonNav{
-    text-decoration: none;
-    font-family: var(--font--roboto);
-    font-size: 20px;
-    background-color: transparent;
-    border: none;
-    padding: 0px 20px;
-    color:#1b2847;
-    position: relative;
-    font-weight: 600;
-    letter-spacing: 3px;
-    cursor: pointer;
-    text-align: center;
-}
-.navigation__navBar__navList__listElements__elementButton{
-    display: block;
-}
-
-.navigation__navBar__navList__listElements__element:hover,.navigation__navBar__navList__listElements__elementButton:hover{
-   color: #236c9c;
->>>>>>> 4e4b451c8f182fdb9e101aa2aa27c38432169956
 }
 
 @media (max-width: 980px) {
@@ -178,19 +155,7 @@
 @media (max-width: 576px) {
   .navigation__navBar__navList__listElements__element {
     font-size: 15px;
-<<<<<<< HEAD
   }
-=======
-    font-family: 'Roboto';
-    padding: 10px 10px;
-    color:#1b2847; ;
-    background-color: white;
-    font-weight: 600;
-    border-bottom: 1px solid rgb(119, 119, 119);
-}
-.navigation__navBar__navList__listElements__elementButton:focus +.navigation__navBar__navList__listElements__dropdownMenu,.navigation__navBar__navList__listElements__dropdownMenu:hover {
-    display: flex;
->>>>>>> 4e4b451c8f182fdb9e101aa2aa27c38432169956
 }
 @media (max-width: 500px) {
   .navigation__navBar__navList {

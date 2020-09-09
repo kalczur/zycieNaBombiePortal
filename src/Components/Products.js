@@ -391,9 +391,18 @@ const Products = ({ match }) => {
 
   return (
     <div className="products">
-      <div className="products_top">{printProductDescription()}</div>
-
-      <MDBDataTable striped bordered small data={matchData} sorting={true} />
+      {printProductDescription()}
+      <div className="products__data-table">
+        <MDBDataTable
+          striped
+          bordered
+          small
+          data={matchData}
+          entries={100}
+          entriesOptions={[100, 200]}
+          sorting={true}
+        />
+      </div>
     </div>
   );
 };

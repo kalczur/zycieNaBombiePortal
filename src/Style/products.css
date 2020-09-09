@@ -1,8 +1,10 @@
 .products {
   padding: 10px;
-}
-.products_top {
   display: flex;
   flex-direction: column;
   justify-items: center;
+  align-items: center;
+}
+.products__data-table {
+  width: 80%;
 }

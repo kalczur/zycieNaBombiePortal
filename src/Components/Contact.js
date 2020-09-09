@@ -19,13 +19,11 @@ const Contact = () => {
   return (
     <div className="contact">
       <h1 className="component-header">KONTAKT</h1>
-<<<<<<< HEAD
-=======
-
->>>>>>> 4e4b451c8f182fdb9e101aa2aa27c38432169956
 
       <h2 className="component-description">
-        Potrzebujesz pomocy, masz pytania związane z dopingiem? Napisz do nas, jesteśmy do Twojej dyspozycji.
+        Potrzebujesz pomocy, masz pytania związane z dopingiem? <br />
+        Napisz do nas, jesteśmy do Twojej dyspozycji.
+        <br />
         Odpowiadamy najszybciej jak to możliwe.
       </h2>
       <h2 className="component-description">Skorzystaj z naszego formularza kontaktowego:</h2>
