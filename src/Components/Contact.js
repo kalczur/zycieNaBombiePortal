@@ -18,11 +18,8 @@ const Contact = () => {
 
   return (
     <div className="contact">
-<<<<<<< HEAD
       <h1 className="component-header">KONTAKT</h1>
-=======
-      <h1 className="contact_header">KONTAKT</h1>
->>>>>>> 854643d02e9715917438fe41fd98e2e37b6a21ff
+
 
       <h2 className="contact_description">
         Potrzebujesz pomocy, masz pytania związane z dopingiem? Napisz do nas, jesteśmy do Twojej dyspozycji.

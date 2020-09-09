@@ -3,33 +3,15 @@ import '../Style/navigation.css';
 import { NavLink } from 'react-router-dom';
 import logo from '../images/doctor.png';
 const Navigation = () => {
-  // useEffect(() => {
-  //     const productsMenu = document.querySelector('.navigation__navBar__navList__listElements__elementButton');
-  //     const productsDropMenu = document.querySelector('.navigation__navBar__navList__listElements__dropdownMenu');
+    // useEffect(() => {
+    //     const productsMenu = document.querySelector('.navigation__navBar__navList__listElements__elementButton');
+    //     const productsDropMenu = document.querySelector('.navigation__navBar__navList__listElements__dropdownMenu');
 
-  //     productsMenu.addEventListener('click', () => {
-  //         productsDropMenu.classList.toggle('dropDownactive');
-  //     })
-  // });
-
-<<<<<<< HEAD
-  return (
-    <nav className="navigation">
-      <div className="navigation__adBar">
-        <h1 className="navigation__adBar__text">DARMOWA DOSTAWA OD 400 ZŁ NA TERENIE POLSKI</h1>
-      </div>
-      <div className="navigation__navBar">
-        <div className="navigation__navBar__logoContainer">
-          <img src={logo} alt="logo" className="navigation__navBar__logoContainer__logo" />
-          <NavLink to="/" className="navigation__navBar__logoContainer__logoHeader">
-            Życie na bombie
-          </NavLink>
-        </div>
-=======
     //     productsMenu.addEventListener('click', () => {
     //         productsDropMenu.classList.toggle('dropDownactive');
     //     })
     // });
+
 
     return (
 
@@ -47,93 +29,70 @@ const Navigation = () => {
                     <NavLink to="/" className="navigation__navBar__logoContainer__logoHeader">Życie na bombie</NavLink>
                 </div>
 
-                <ul className='navigation__navBar__navList'>
 
-                    <li className='navigation__navBar__navList__listElements'>
-                        <button className='navigation__navBar__navList__listElements__elementButtonDesktop'>Produkty</button>
 
-                        <div className='navigation__navBar__navList__listElements__dropdownMenu'>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/lol'>Maximus Pharma</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Peptydy Magnus</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>SARMy Anabolix Labs</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Produkty Apteczne</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Środki na potencję</NavLink>
-                            <NavLink className='navigation__navBar__navList__listElements__dropdownMenu_element' to='/'>Pozostałe</NavLink>
+                <ul className="navigation__navBar__navList">
+                    <li className="navigation__navBar__navList__listElements">
+                        <button className="navigation__navBar__navList__listElements__elementButton">Produkty</button>
+                        <div className="navigation__navBar__navList__listElements__dropdownMenu">
+                            <NavLink
+                                className="navigation__navBar__navList__listElements__dropdownMenu_element"
+                                to="/products/maximus_pharmaceutical"
+                            >
+                                Maximus Pharma
+              </NavLink>
+                            <NavLink
+                                className="navigation__navBar__navList__listElements__dropdownMenu_element"
+                                to="/products/peptydy_magnus"
+                            >
+                                Peptydy Magnus
+              </NavLink>
+                            <NavLink
+                                className="navigation__navBar__navList__listElements__dropdownMenu_element"
+                                to="/products/anabolix_labs"
+                            >
+                                SARMy Anabolix Labs
+              </NavLink>
+                            <NavLink
+                                className="navigation__navBar__navList__listElements__dropdownMenu_element"
+                                to="/products/apteczne"
+                            >
+                                Produkty Apteczne
+              </NavLink>
+                            <NavLink
+                                className="navigation__navBar__navList__listElements__dropdownMenu_element"
+                                to="/products/produkty_na_potencje"
+                            >
+                                Środki na potencję
+              </NavLink>
+                            <NavLink
+                                className="navigation__navBar__navList__listElements__dropdownMenu_element"
+                                to="/products/pozostale"
+                            >
+                                Pozostałe
+              </NavLink>
                         </div>
                     </li>
-                    <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/jakZamowic' className='navigation__navBar__navList__listElements__element'>Jak Zamówić</NavLink>
+                    <li className="navigation__navBar__navList__listElements">
+                        <NavLink to="/jakZamowic" className="navigation__navBar__navList__listElements__element">
+                            Jak Zamówić
+            </NavLink>
                     </li>
-                    <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/blog' className='navigation__navBar__navList__listElements__element'>Blog</NavLink>
+                    <li className="navigation__navBar__navList__listElements">
+                        <NavLink to="/blog" className="navigation__navBar__navList__listElements__element">
+                            Blog
+            </NavLink>
                     </li>
-                    <li className='navigation__navBar__navList__listElements'>
-                        <NavLink to='/kontakt' className='navigation__navBar__navList__listElements__element'>Kontakt</NavLink>
+                    <li className="navigation__navBar__navList__listElements">
+                        <NavLink to="/kontakt" className="navigation__navBar__navList__listElements__element">
+                            Kontakt
+            </NavLink>
                     </li>
                 </ul>
->>>>>>> 854643d02e9715917438fe41fd98e2e37b6a21ff
-
-        <ul className="navigation__navBar__navList">
-          <li className="navigation__navBar__navList__listElements">
-            <button className="navigation__navBar__navList__listElements__elementButton">Produkty</button>
-            <div className="navigation__navBar__navList__listElements__dropdownMenu">
-              <NavLink
-                className="navigation__navBar__navList__listElements__dropdownMenu_element"
-                to="/products/maximus_pharmaceutical"
-              >
-                Maximus Pharma
-              </NavLink>
-              <NavLink
-                className="navigation__navBar__navList__listElements__dropdownMenu_element"
-                to="/products/peptydy_magnus"
-              >
-                Peptydy Magnus
-              </NavLink>
-              <NavLink
-                className="navigation__navBar__navList__listElements__dropdownMenu_element"
-                to="/products/anabolix_labs"
-              >
-                SARMy Anabolix Labs
-              </NavLink>
-              <NavLink
-                className="navigation__navBar__navList__listElements__dropdownMenu_element"
-                to="/products/apteczne"
-              >
-                Produkty Apteczne
-              </NavLink>
-              <NavLink
-                className="navigation__navBar__navList__listElements__dropdownMenu_element"
-                to="/products/produkty_na_potencje"
-              >
-                Środki na potencję
-              </NavLink>
-              <NavLink
-                className="navigation__navBar__navList__listElements__dropdownMenu_element"
-                to="/products/pozostale"
-              >
-                Pozostałe
-              </NavLink>
             </div>
-          </li>
-          <li className="navigation__navBar__navList__listElements">
-            <NavLink to="/jakZamowic" className="navigation__navBar__navList__listElements__element">
-              Jak Zamówić
-            </NavLink>
-          </li>
-          <li className="navigation__navBar__navList__listElements">
-            <NavLink to="/blog" className="navigation__navBar__navList__listElements__element">
-              Blog
-            </NavLink>
-          </li>
-          <li className="navigation__navBar__navList__listElements">
-            <NavLink to="/kontakt" className="navigation__navBar__navList__listElements__element">
-              Kontakt
-            </NavLink>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  );
+        </nav>
+
+    );
 };
 
 export default Navigation;

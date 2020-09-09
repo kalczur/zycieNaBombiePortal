@@ -56,7 +56,7 @@
     font-weight: 600;
    
 }
-.navigation__navBar__navList__listElements__elementButtonDesktop,.navigation__navBar__navList__listElements__elementButtonNav{
+.navigation__navBar__navList__listElements__elementButton,.navigation__navBar__navList__listElements__elementButtonNav{
     text-decoration: none;
     font-family: var(--font--roboto);
     font-size: 20px;
@@ -70,11 +70,11 @@
     cursor: pointer;
     text-align: center;
 }
-.navigation__navBar__navList__listElements__elementButtonDesktop{
+.navigation__navBar__navList__listElements__elementButton{
     display: block;
 }
 
-.navigation__navBar__navList__listElements__element:hover,.navigation__navBar__navList__listElements__elementButtonDesktop:hover{
+.navigation__navBar__navList__listElements__element:hover,.navigation__navBar__navList__listElements__elementButton:hover{
    color: #236c9c;
 }
 
@@ -107,7 +107,7 @@
     font-weight: 600;
     border-bottom: 1px solid rgb(119, 119, 119);
 }
-.navigation__navBar__navList__listElements__elementButtonDesktop:focus +.navigation__navBar__navList__listElements__dropdownMenu,.navigation__navBar__navList__listElements__dropdownMenu:hover {
+.navigation__navBar__navList__listElements__elementButton:focus +.navigation__navBar__navList__listElements__dropdownMenu,.navigation__navBar__navList__listElements__dropdownMenu:hover {
     display: flex;
 }
 
