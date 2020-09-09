@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h1 className="howBuy__header">KONTAKT</h1>
+      <h1 className="component-header">KONTAKT</h1>
 
       <b2 className="contact_description">
         Potrzebujesz pomocy, masz pytania związane z dopingiem? Napisz do nas, jesteśmy do Twojej dyspozycji.
