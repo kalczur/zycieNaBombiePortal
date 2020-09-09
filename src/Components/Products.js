@@ -325,5 +325,12 @@ const Products = () => {
         </div>
     );
 }
+const Products = () => {
+    return (
+        <div>
+
+        </div>
+    );
+}
 
 export default Products;
