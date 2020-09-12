@@ -70,8 +70,26 @@ const Products = ({ match }) => {
       },
       {
         name: 'Izotek',
-        weight: '60tab / 20mg',
+        weight: '100tab / 20mg',
         price: 220,
+        brand: 'Apteczne',
+      },
+      {
+        name: 'Euthyrox N100',
+        weight: '100tab / 100mcg',
+        price: 60,
+        brand: 'Apteczne',
+      },
+      {
+        name: 'Heparegen',
+        weight: '100tab / 100mg',
+        price: 150,
+        brand: 'Apteczne',
+      },
+      {
+        name: 'Tialorid',
+        weight: '50tab / 5+50mg',
+        price: 50,
         brand: 'Apteczne',
       },
       {
@@ -89,7 +107,19 @@ const Products = ({ match }) => {
       {
         name: 'Insulina krótka - Lilly Humulin R',
         weight: '5x3ml 100iu/ml',
-        price: 250,
+        price: 230,
+        brand: 'Apteczne',
+      },
+      {
+        name: 'Metronizadol - PolPharma',
+        weight: '20tab / 250mg',
+        price: 70,
+        brand: 'Apteczne',
+      },
+      {
+        name: 'Tetracyclinum TZF',
+        weight: '16tab / 250mg',
+        price: 70,
         brand: 'Apteczne',
       },
       {
