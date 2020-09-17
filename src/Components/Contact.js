@@ -18,7 +18,7 @@ const Contact = () => {
 
   return (
     <div className="contact">
-      <h1 className="component-header">KONTAKT</h1>
+      <h1 className="contact_component-header">KONTAKT</h1>
 
       <h2 className="component-description">
         Potrzebujesz pomocy, masz pytania związane z dopingiem? <br />
@@ -90,7 +90,9 @@ const Contact = () => {
           <span>Wyślij </span>
         </button>
       </form>
-    </div>
+      <h2 className='component-description'>Lub napisz bezpośrednio na maila: Zycie.na.bombie@tutanota.com <br />
+Zapraszamy również do śledzenia nas na <a href='https://www.instagram.com/zycie.na.bombie/'>Instagramie</a>:</h2>
+    </div >
   );
 };
 

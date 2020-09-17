@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-
+import '../Style/shipment.css'
 export default class Shipment extends Component {
   render() {
     return (
       <div className="shipment">
-        <h1 className="component-header">WYSYŁKA</h1>
+        <h1 className="shipment_component-header">WYSYŁKA</h1>
 
-        <h2 className="component-description">
+        <h2 className="shipment_component-description">
           Wszystkie zamówienia staramy się realizować w ciągu jednego dnia roboczego od zaksięgowania płatności.
           <br />
           <br />

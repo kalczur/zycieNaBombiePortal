@@ -5,14 +5,17 @@
   justify-content: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.contact_header {
-  font-size: 70px;
-  margin: 10px 0;
-  color: #121a2e;
-  text-shadow: 0em 0em 0.4em rgba(52, 96, 129, 0.342);
+.contact_component-header {
+  font-size: 55px;
   font-family: 'Roboto';
+  font-weight: 900;
+  letter-spacing: 10px;
   font-style: italic;
-  letter-spacing: 5px;
+  color: #121a2e;
+  padding-top: 30px;
+  display: block;
+  text-align: center;
+animation: fromShade 1.5s;
 }
 .contact__form {
   display: flex;
@@ -96,5 +99,10 @@
   100% {
     transform: translateX(0%);
     opacity: 1;
+  }
+}
+@media (max-width: 622px) {
+  .contact__form{
+    width: 90%;
   }
 }
