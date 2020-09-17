@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/zycieNaBombiePortal/static/css/main.85acb93a.chunk.css",
+    "main.js": "/zycieNaBombiePortal/static/js/main.16e2b3bf.chunk.js",
+    "main.js.map": "/zycieNaBombiePortal/static/js/main.16e2b3bf.chunk.js.map",
+    "runtime-main.js": "/zycieNaBombiePortal/static/js/runtime-main.9e4aeec8.js",
+    "runtime-main.js.map": "/zycieNaBombiePortal/static/js/runtime-main.9e4aeec8.js.map",
+    "static/css/2.8aa5a7f8.chunk.css": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.906f3ec1.chunk.js": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js",
+    "static/js/2.906f3ec1.chunk.js.map": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js.map",
+    "index.html": "/zycieNaBombiePortal/index.html",
+    "precache-manifest.0173c11b2f458923a83aa7b470f89591.js": "/zycieNaBombiePortal/precache-manifest.0173c11b2f458923a83aa7b470f89591.js",
+    "service-worker.js": "/zycieNaBombiePortal/service-worker.js",
+    "static/css/2.8aa5a7f8.chunk.css.map": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css.map",
+    "static/css/main.85acb93a.chunk.css.map": "/zycieNaBombiePortal/static/css/main.85acb93a.chunk.css.map",
+    "static/js/2.906f3ec1.chunk.js.LICENSE.txt": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js.LICENSE.txt",
+    "static/media/section.css": "/zycieNaBombiePortal/static/media/pexels-victor-freitas-949126.87263c93.jpg",
+    "static/media/doctor.png": "/zycieNaBombiePortal/static/media/doctor.0fc6bf6d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e4aeec8.js",
+    "static/css/2.8aa5a7f8.chunk.css",
+    "static/js/2.906f3ec1.chunk.js",
+    "static/css/main.85acb93a.chunk.css",
+    "static/js/main.16e2b3bf.chunk.js"
+  ]
+}
