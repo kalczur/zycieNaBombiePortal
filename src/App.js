@@ -6,7 +6,7 @@ import Contact from './Components/Contact';
 import Wysylka from './Components/Shipment';
 import NotFound from './Components/NotFound';
 import Instagram from './Components/Instagram';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import HowBuy from './Components/HowBuy';
 
 function App() {
