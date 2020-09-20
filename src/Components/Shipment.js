@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../Style/shipment.css'
+import '../Style/shipment.css';
 export default class Shipment extends Component {
   render() {
     return (
@@ -28,7 +28,7 @@ export default class Shipment extends Component {
           Kurier – 15zł Paczkomat – 10zł Kurier międzynarodowy – 50zł
           <br />
           <br />
-          Dla zamówień na terenie Polski na kwotę powyżej 400zł wysyłka kurierem i na paczkomat bezpłatna ! ! !
+          Dla zamówień na terenie Polski na kwotę powyżej 400zł wysyłka kurierem i na paczkomat bezpłatna!!!
         </h2>
       </div>
     );

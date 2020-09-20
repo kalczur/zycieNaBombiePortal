@@ -423,15 +423,7 @@ const Products = ({ match }) => {
     <div className="products">
       {printProductDescription()}
       <div className="products__data-table">
-        <MDBDataTable
-          striped
-          bordered
-          small
-          data={matchData}
-          entries={100}
-          entriesOptions={[100, 200]}
-          sorting={true}
-        />
+        <MDBDataTable responsive striped bordered small data={matchData} entries={200} sorting={true} />
       </div>
     </div>
   );

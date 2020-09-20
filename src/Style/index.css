@@ -50,3 +50,17 @@ a {
     font-size: 16px;
   }
 }
+.dataTables_length {
+  display: none;
+}
+
+.dataTables_paginate {
+  display: none;
+}
+.mdb-datatable-filter {
+  margin: 10px 0px;
+}
+
+[data-test|='table-foot'] {
+  display: none;
+}

@@ -1,17 +1,25 @@
-.shipment_component-header{
-    font-size: 55px;
-    font-family: 'Roboto';
-    font-weight: 900;
-    letter-spacing: 10px;
-    font-style: italic;
-    color: #121a2e;
-    padding-top: 30px;
-    display: block;
-    text-align: center;
+.shipment {
+  padding: 30px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),
+    url('./../images/pexels-norma-mortenson-4391478.jpg');
+  background-position: center center;
+  color: white;
+}
+.shipment_component-header {
+  font-size: 55px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  letter-spacing: 10px;
+  font-style: italic;
+  color: #7d9be7;
+  text-shadow: 0px 0px 10px #000;
+  padding-top: 30px;
+  display: block;
+  text-align: center;
   animation: fromShade 1.5s;
 }
-.shipment_component-description{
-    font-family: 'Roboto';
+.shipment_component-description {
+  font-family: 'Roboto';
   font-weight: 300;
   letter-spacing: 2px;
   font-size: 25px;

@@ -8,8 +8,9 @@ export default class PeptydyMagnus extends Component {
         <h2 className="component-description">
           Magnus Pharmaceuticals jest jedną z największych prywatnych firm farmaceutycznych w Indiach, produktującą od
           ponad 15 lat najwyższej jakości produkty, dzięki czemu zdążyli wyrobić solidną i bardzo dobrze kojarzoną markę
-          na Polskim rynku. Wszelkie produkty Magnus Pharmaceuticals można zweryfikować pod kątem oryginalności na
-          stronie internetowej{' '}
+          na Polskim rynku.
+          <br /> Wszelkie produkty Magnus Pharmaceuticals można zweryfikować pod kątem oryginalności na stronie
+          internetowej{' '}
           <a href="http://www.magnuspharmaceuticals.net/verification" target="_blank" rel="noopener noreferrer">
             magnuspharmaceuticals.net/verification
           </a>{' '}

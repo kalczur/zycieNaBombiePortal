@@ -14,29 +14,27 @@
   align-content: center;
   background-color: #ffffff;
 }
-.howBuy__header{
-    font-size: 55px;
-    font-family: "Roboto";
-    font-weight: 900;
-    letter-spacing: 10px;
-    font-style: italic;
-    color: #121a2e;
-    padding-top:40px ;
-    display: block;
-    text-align: center;
-   
+.howBuy__header {
+  font-size: 55px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  letter-spacing: 10px;
+  font-style: italic;
+  color: #121a2e;
+  padding-top: 40px;
+  display: block;
+  text-align: center;
 }
-.howBuy__container{
-    display: flex;
-    width: 100%;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    background-color: #ffffff;
-    animation: fromShade 1s;
-    
+.howBuy__container {
+  display: flex;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: #ffffff;
+  animation: fromShade 1s;
 }
 .howBuy__container__text {
   width: 50%;
@@ -47,9 +45,8 @@
 .howBuy__container__list__element {
   color: rgb(80, 81, 85);
   width: 60%;
-  margin: 0 0 30px 0;
-  padding: 13px;
   position: relative;
+  margin-bottom: 10px;
   top: 1em;
   padding-left: 2em;
   font-size: 1.2em;
@@ -63,14 +60,13 @@
   justify-content: center;
   align-items: center;
 }
-@keyframes fromShade
-{
-    0%{
-        transform: translateX(-10%);
-        opacity: 0;
-    }
-    100%{
-        transform: translateX(0%);
-        opacity: 1;
-    }
+@keyframes fromShade {
+  0% {
+    transform: translateX(-10%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
 }

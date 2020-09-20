@@ -90,9 +90,12 @@ const Contact = () => {
           <span>Wyślij </span>
         </button>
       </form>
-      <h2 className='component-description'>Lub napisz bezpośrednio na maila: Zycie.na.bombie@tutanota.com <br />
-Zapraszamy również do śledzenia nas na <a href='https://www.instagram.com/zycie.na.bombie/'>Instagramie</a>:</h2>
-    </div >
+      <h2 className="component-description">
+        Lub napisz bezpośrednio na maila: Zycie.na.bombie@tutanota.com <br />
+        Zapraszamy również do śledzenia nas na Instagramie: <br />
+        <br /> <a href="https://www.instagram.com/zycie.na.bombie/">ŻYCIE NA BOMBIE</a>
+      </h2>
+    </div>
   );
 };
 

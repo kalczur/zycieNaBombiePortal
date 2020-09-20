@@ -5,6 +5,9 @@
   justify-items: center;
   align-items: center;
 }
+.products__description {
+  animation: fromShade 1s;
+}
 .products__data-table {
   width: 80%;
 }
