@@ -3,7 +3,7 @@ import '../Style/howBuy.css';
 const HowBuy = () => {
   return (
     <div className="howBuy">
-      <h1 className="component-header">Jak Zamówić Produkty</h1>
+      <h1 className="howBuy__header">Jak Zamówić Produkty</h1>
       <div className="howBuy__container">
         <ul className="howBuy__container__list">
           <li className="howBuy__container__list__element">
