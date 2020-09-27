@@ -68,3 +68,7 @@ a {
 [data-test|='datatable-info'] {
   display: none;
 }
+
+[data-test|='datatable-input'] {
+  display: none;
+}

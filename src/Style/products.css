@@ -11,3 +11,15 @@
 .products__data-table {
   width: 80%;
 }
+
+.products__table-header {
+  margin-top: 35px;
+  font-family: 'Roboto';
+  font-style: italic;
+}
+
+@media (max-width: 622px) {
+  .products {
+    padding: 2px;
+  }
+}

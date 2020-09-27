@@ -465,18 +465,18 @@ const Products = ({ match }) => {
         .filter((el) => el.type === 'injection');
       let tempDataInjection = { ...data };
       tempDataInjection.rows = tempRowsInjection;
-      tempDataInjection.columns[0].label = 'Środki iniekcyjne';
 
       let tempRowsOral = data.rows
         .filter((el) => fixBrandName(el.brand) === match.params.brand)
         .filter((el) => el.type === 'oral');
       let tempDataOral = { ...data };
       tempDataOral.rows = tempRowsOral;
-      tempDataOral.columns[0].label = 'Środki oralne';
 
       return (
         <>
+          <h2 className="products__table-header">Środki iniekcyjne</h2>
           <MDBDataTable striped bordered small data={tempDataInjection} entries={1000} sorting={true} />
+          <h2 className="products__table-header">Środki oralne</h2>
           <MDBDataTable striped bordered small data={tempDataOral} entries={1000} sorting={true} />
         </>
       );
