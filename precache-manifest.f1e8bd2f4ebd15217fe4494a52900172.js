@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "efa14ab76f984e740e9878c748e2caf4",
+    "revision": "7ffb2d3903a404585c42179e901050b7",
     "url": "/zycieNaBombiePortal/index.html"
   },
   {
-    "revision": "75e5318f330d043180ca",
+    "revision": "0db750f47fbabb3310a2",
     "url": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "706236131526a2a541e7",
-    "url": "/zycieNaBombiePortal/static/css/main.e276d079.chunk.css"
+    "revision": "e57412c415e961b42e45",
+    "url": "/zycieNaBombiePortal/static/css/main.44c2841d.chunk.css"
   },
   {
-    "revision": "75e5318f330d043180ca",
-    "url": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js"
+    "revision": "0db750f47fbabb3310a2",
+    "url": "/zycieNaBombiePortal/static/js/2.9913e5c3.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js.LICENSE.txt"
+    "url": "/zycieNaBombiePortal/static/js/2.9913e5c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "706236131526a2a541e7",
-    "url": "/zycieNaBombiePortal/static/js/main.3d2569cb.chunk.js"
+    "revision": "e57412c415e961b42e45",
+    "url": "/zycieNaBombiePortal/static/js/main.4c5961d7.chunk.js"
   },
   {
     "revision": "affedfd1bd21a73564d4",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9db8fbd700269eb24034179896672b58",
     "url": "/zycieNaBombiePortal/static/media/pexels-karolina-grabowska-4047148.9db8fbd7.jpg"
+  },
+  {
+    "revision": "c31988cde8566f3dfba9afca825f6699",
+    "url": "/zycieNaBombiePortal/static/media/pexels-ketut-subiyanto-4246059.c31988cd.jpg"
   },
   {
     "revision": "ab70ae90829edd1ecce0663947da9c74",

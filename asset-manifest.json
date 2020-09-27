@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/zycieNaBombiePortal/static/css/main.e276d079.chunk.css",
-    "main.js": "/zycieNaBombiePortal/static/js/main.3d2569cb.chunk.js",
-    "main.js.map": "/zycieNaBombiePortal/static/js/main.3d2569cb.chunk.js.map",
+    "main.css": "/zycieNaBombiePortal/static/css/main.44c2841d.chunk.css",
+    "main.js": "/zycieNaBombiePortal/static/js/main.4c5961d7.chunk.js",
+    "main.js.map": "/zycieNaBombiePortal/static/js/main.4c5961d7.chunk.js.map",
     "runtime-main.js": "/zycieNaBombiePortal/static/js/runtime-main.9e4aeec8.js",
     "runtime-main.js.map": "/zycieNaBombiePortal/static/js/runtime-main.9e4aeec8.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.906f3ec1.chunk.js": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js",
-    "static/js/2.906f3ec1.chunk.js.map": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js.map",
+    "static/js/2.9913e5c3.chunk.js": "/zycieNaBombiePortal/static/js/2.9913e5c3.chunk.js",
+    "static/js/2.9913e5c3.chunk.js.map": "/zycieNaBombiePortal/static/js/2.9913e5c3.chunk.js.map",
     "index.html": "/zycieNaBombiePortal/index.html",
-    "precache-manifest.de4c21c8621d981b2c2bc21433e67436.js": "/zycieNaBombiePortal/precache-manifest.de4c21c8621d981b2c2bc21433e67436.js",
+    "precache-manifest.f1e8bd2f4ebd15217fe4494a52900172.js": "/zycieNaBombiePortal/precache-manifest.f1e8bd2f4ebd15217fe4494a52900172.js",
     "service-worker.js": "/zycieNaBombiePortal/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css.map",
-    "static/css/main.e276d079.chunk.css.map": "/zycieNaBombiePortal/static/css/main.e276d079.chunk.css.map",
-    "static/js/2.906f3ec1.chunk.js.LICENSE.txt": "/zycieNaBombiePortal/static/js/2.906f3ec1.chunk.js.LICENSE.txt",
+    "static/css/main.44c2841d.chunk.css.map": "/zycieNaBombiePortal/static/css/main.44c2841d.chunk.css.map",
+    "static/js/2.9913e5c3.chunk.js.LICENSE.txt": "/zycieNaBombiePortal/static/js/2.9913e5c3.chunk.js.LICENSE.txt",
     "static/media/section.css": "/zycieNaBombiePortal/static/media/pexels-victor-freitas-949126.87263c93.jpg",
     "static/media/doctor.png": "/zycieNaBombiePortal/static/media/doctor.0fc6bf6d.png",
+    "static/media/howBuy.css": "/zycieNaBombiePortal/static/media/pexels-ketut-subiyanto-4246059.c31988cd.jpg",
     "static/media/shipment.css": "/zycieNaBombiePortal/static/media/pexels-norma-mortenson-4391478.ab70ae90.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.9e4aeec8.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.906f3ec1.chunk.js",
-    "static/css/main.e276d079.chunk.css",
-    "static/js/main.3d2569cb.chunk.js"
+    "static/js/2.9913e5c3.chunk.js",
+    "static/css/main.44c2841d.chunk.css",
+    "static/js/main.4c5961d7.chunk.js"
   ]
 }
