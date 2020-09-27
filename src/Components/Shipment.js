@@ -25,7 +25,11 @@ export default class Shipment extends Component {
           <b>CENNIK WYSYŁKI</b>
           <br />
           <br />
-          Kurier – 15zł Paczkomat – 10zł Kurier międzynarodowy – 50zł
+          Kurier – 15zł
+          <br />
+          Paczkomat – 10zł
+          <br />
+          Kurier międzynarodowy – 50zł
           <br />
           <br />
           Dla zamówień na terenie Polski na kwotę powyżej 400zł wysyłka kurierem i na paczkomat bezpłatna!!!
