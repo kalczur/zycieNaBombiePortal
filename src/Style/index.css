@@ -64,3 +64,11 @@ a {
 [data-test|='table-foot'] {
   display: none;
 }
+
+[data-test|='datatable-info'] {
+  display: none;
+}
+
+[data-test|='datatable-input'] {
+  display: none;
+}

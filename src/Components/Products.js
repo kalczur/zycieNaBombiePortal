@@ -127,120 +127,161 @@ const Products = ({ match }) => {
         weight: '100mg / 10ml',
         price: 80,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Testosterone Enanthate',
         weight: '250mg / 10ml',
         price: 100,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Testosterone Enanthate Forte',
         weight: '500mg / 10ml',
         price: 150,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Testosterone Compound (Susta)',
         weight: '250mg / 10ml',
         price: 110,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Testosterone Cypionate',
         weight: '250mg / 10ml',
         price: 100,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Testosterone Compound (SuperSusta)',
         weight: '450mg / 10ml',
         price: 150,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Nandrolone Decanoate (Długa Deka)',
         weight: '200mg / 10m',
         price: 140,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Nandrolone Phenylpropionate (Krótka Deka NPP)',
         weight: '100mg / 10ml',
         price: 130,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Dihydro Boldenone (DHB)',
         weight: '100mg / 10ml',
         price: 160,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Boldenone Undecylenate (Boldenon)',
         weight: '250mg / 10ml',
         price: 135,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Drostanolone Propionate (Krótki masteron)',
         weight: '100mg / 10ml',
         price: 145,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Drostanolone Enanthate (Długi masteron)',
         weight: '200mg / 10ml',
         price: 190,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Trenbolone Acetate',
         weight: '100mg / 10ml',
         price: 145,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Trenbolone Enanthate',
         weight: '200mg / 10m',
         price: 175,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Stanozolol (Winstrol) - Iniekcyjny (Na oleju)',
         weight: '50mg / 10ml',
         price: 150,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Oxymetholone (Anapolon) - Iniekcyjny (Na oleju)',
         weight: '50mg / 10mg',
         price: 150,
         brand: 'Maximus Pharmaceutical',
+        type: 'injection',
+      },
+      {
+        name: 'Methandienone (Metanabol) - Iniekcyjny (Na oleju)',
+        weight: '50mg / 10mg',
+        price: 150,
+        brand: 'Maximus Pharmaceutical',
+        type: 'injection',
+      },
+      {
+        name: 'Oxandrolone (Anavar) - Iniekcyjny (Na oleju)',
+        weight: '50mg / 10mg',
+        price: 150,
+        brand: 'Maximus Pharmaceutical',
+        type: 'injection',
+      },
+      {
+        name: 'Tren A + Test P + Masteron P (SuperCut 3x50mg)',
+        weight: '150mg / 10mg',
+        price: 190,
+        brand: 'Maximus Pharmaceutical',
+        type: 'injection',
       },
       {
         name: 'Methandienone (Metanabol)',
         weight: '100tab / 10mg',
         price: 80,
         brand: 'Maximus Pharmaceutical',
+        type: 'oral',
       },
       {
         name: 'Stanozolol (Winstrol)',
         weight: '100tab / 10mg',
         price: 100,
         brand: 'Maximus Pharmaceutical',
+        type: 'oral',
       },
       {
         name: 'Chloromethyltestosterone (Turanabol)',
         weight: '100tab / 10mg',
         price: 150,
         brand: 'Maximus Pharmaceutical',
+        type: 'oral',
       },
       {
         name: 'Oxandrolone (Anavar)',
         weight: '100tab / 10mg',
         price: 150,
         brand: 'Maximus Pharmaceutical',
+        type: 'oral',
       },
       {
         name: 'Tadal (Tadalafil)',
@@ -390,8 +431,6 @@ const Products = ({ match }) => {
   const [matchData, setMatchData] = useState({});
 
   useEffect(() => {
-    //printProductDescription();
-
     let tempRows = data.rows.filter((el) => fixBrandName(el.brand) === match.params.brand);
     let tempData = { ...data };
     tempData.rows = tempRows;
@@ -419,12 +458,37 @@ const Products = ({ match }) => {
     }
   };
 
+  const printDataTable = () => {
+    if (match.params.brand === 'maximus_pharmaceutical') {
+      let tempRowsInjection = data.rows
+        .filter((el) => fixBrandName(el.brand) === match.params.brand)
+        .filter((el) => el.type === 'injection');
+      let tempDataInjection = { ...data };
+      tempDataInjection.rows = tempRowsInjection;
+
+      let tempRowsOral = data.rows
+        .filter((el) => fixBrandName(el.brand) === match.params.brand)
+        .filter((el) => el.type === 'oral');
+      let tempDataOral = { ...data };
+      tempDataOral.rows = tempRowsOral;
+
+      return (
+        <>
+          <h2 className="products__table-header">Środki iniekcyjne</h2>
+          <MDBDataTable striped bordered small data={tempDataInjection} entries={1000} sorting={true} />
+          <h2 className="products__table-header">Środki oralne</h2>
+          <MDBDataTable striped bordered small data={tempDataOral} entries={1000} sorting={true} />
+        </>
+      );
+    } else {
+      return <MDBDataTable striped bordered small data={matchData} entries={1000} sorting={true} />;
+    }
+  };
+
   return (
     <div className="products">
       {printProductDescription()}
-      <div className="products__data-table">
-        <MDBDataTable responsive striped bordered small data={matchData} entries={200} sorting={true} />
-      </div>
+      <div className="products__data-table">{printDataTable()}</div>
     </div>
   );
 };
