@@ -20,7 +20,7 @@ const Section = () => {
                             Stawiamy na najwyższą jakość i skuteczność środków w
                             przystępnej cenie, a nasz asortyment pochodzi od
                             sprawdzonych i pewnych dostawców, dzięki czemu
-                            klienci regularnie do nas wracają{" "}
+                            klienci regularnie do nas wracają.{" "}
                         </p>
                     </div>
                     <div className="section__about__container__element">
