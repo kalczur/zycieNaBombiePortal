@@ -1,19 +1,40 @@
 import React, { useState } from 'react';
+import axios from 'axios';
 import '../Style/contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('Nie wypełniono');
   const [email, setEmail] = useState('Nie wypełniono');
-  const [topic, setTopic] = useState('Brak tematu');
+  const [subject, setSubject] = useState('Brak tematu');
   const [message, setMessage] = useState('Brak tresci');
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(name);
-    console.log(email);
-    console.log(topic);
-    console.log(message);
+    let mailState = {
+      name: name,
+      email: email,
+	  subject: subject,
+      message: message,
+    };
+
+    console.log(mailState);
+
+    axios({
+      method: 'POST',
+      url: '/send',
+      data: mailState,
+    }).then((response) => {
+      resetForm();
+	  alert(response.data.message);
+    });
+  };
+
+  const resetForm = () => {
+    setName('');
+    setEmail('');
+    setSubject('');
+    setMessage('');
   };
 
   return (
@@ -28,19 +49,13 @@ const Contact = () => {
       </h2>
       <h2 className="component-description">Skorzystaj z naszego formularza kontaktowego:</h2>
 
-      <form className="contact__form" method="POST" onSubmit={handleSubmit}>
+      <form className="contact__form" method="POST" onSubmit={handleSubmit} method="POST">
         <div className="contact__form__group">
           <label htmlFor="name" className="contact__form__label">
             Imie i nazwisko (wymagane)
           </label>
           <br />
-          <input
-            type="text"
-            id="name"
-            className="contact__form__input"
-            //placeholder="Imie i nazwisko (wymagane)"
-            onChange={(e) => setName(e.target.value)}
-          />
+          <input type="text" id="name" className="contact__form__input" onChange={(e) => setName(e.target.value)} />
         </div>
 
         <div className="contact__form__group">
@@ -52,24 +67,17 @@ const Contact = () => {
             id="email"
             type="email"
             className="contact__form__input"
-            //placeholder="Adres e-mail (wymagane)"
             aria-describedby="emailHelp"
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
 
         <div className="contact__form__group">
-          <label htmlFor="topic" className="contact__form__label">
+          <label htmlFor="subject" className="contact__form__label">
             Temat
           </label>
           <br />
-          <input
-            id="topic"
-            type="text"
-            className="contact__form__input"
-            //placeholder="Temat"
-            onChange={(e) => setTopic(e.target.value)}
-          />
+          <input id="subject" type="text" className="contact__form__input" onChange={(e) => setSubject(e.target.value)} />
         </div>
 
         <div className="contact__form__group">
@@ -80,7 +88,6 @@ const Contact = () => {
           <textarea
             id="message"
             className="contact__form__input contact__form__message"
-            //placeholder="Treść wiadomości"
             rows="5"
             onChange={(e) => setMessage(e.target.value)}
           ></textarea>
@@ -93,7 +100,10 @@ const Contact = () => {
       <h2 className="component-description">
         Lub napisz bezpośrednio na maila: Zycie.na.bombie@tutanota.com <br />
         Zapraszamy również do śledzenia nas na Instagramie: <br />
-        <br /> <a href="https://www.instagram.com/zycie.na.bombie/"><button className='component-description__button'>Życie Na Bombie</button></a>
+        <br />{' '}
+        <a href="https://www.instagram.com/zycie.na.bombie/">
+          <button className="component-description__button">Życie Na Bombie</button>
+        </a>
       </h2>
     </div>
   );

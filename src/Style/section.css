@@ -71,6 +71,7 @@
   font-weight: 300;
   letter-spacing: 2px;
   color: rgb(73, 75, 77);
+  text-align: justify;
   display: block;
 }
 .section__about__container__element {
