@@ -40,19 +40,19 @@ const Products = ({ match }) => {
     rows: [
       {
         name: 'Anastrazol (Arimidex)',
-        weight: '28 tab / 1mg',
+        weight: '28tab / 1mg',
         price: 140,
         brand: 'Apteczne',
       },
       {
         name: 'Exemestane (Symex / Glandex)',
-        weight: '30 tab / 25mg',
+        weight: '30tab / 25mg',
         price: 150,
         brand: 'Apteczne',
       },
       {
         name: 'Letrozol',
-        weight: '30 tab / 2,5mg',
+        weight: '30tab / 2,5mg',
         price: 150,
         brand: 'Apteczne',
       },
@@ -257,14 +257,14 @@ const Products = ({ match }) => {
       },
       {
         name: 'Methandienone (Metanabol)',
-        weight: '100 tab / 10mg',
+        weight: '100tab / 10mg',
         price: 80,
         brand: 'Maximus Pharmaceutical',
         type: 'oral',
       },
       {
         name: 'Stanozolol (Winstrol)',
-        weight: '100 tab / 10mg',
+        weight: '100tab / 10mg',
         price: 100,
         brand: 'Maximus Pharmaceutical',
         type: 'oral',

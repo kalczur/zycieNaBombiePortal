@@ -9,7 +9,7 @@ export default class MaximusPharmaceutical extends Component {
           Maximus Pharmaceutical jest firmą założoną w 2018r. i od tego czasu bardzo prężnie się rozwija, kontrolując
           wszystkie aspekty badań, rozwoju i zatwierdzania produktów, co daje pewność że w każdym produkcie znajduje się
           dokładnie to czego potrzebujesz.
-          <br /> Wszelkie produkty Maximus Pharmaceuticals można zweryfikować pod kątem oryginalności na stronie
+          Wszelkie produkty Maximus Pharmaceuticals można zweryfikować pod kątem oryginalności na stronie
           internetowej{' '}
           <a href="http://www.maximuspharm.com/authenticity" target="_blank" rel="noopener noreferrer">
             maximuspharm.com/authenticity

@@ -92,6 +92,18 @@
   opacity: 1;
   right: 0;
 }
+.component-description__button{
+  display:inline-block;
+  padding: 10px;
+  background-color: #4c8adb;
+  border:none;
+  color: white;
+  font-family:'Roboto',sans-serif;
+  text-align:center;
+  text-transform:uppercase;
+  box-shadow: 0 8px 6px -6px black;
+  border-radius: 2px;
+}
 @keyframes fromShade {
   0% {
     transform: translateX(-10%);

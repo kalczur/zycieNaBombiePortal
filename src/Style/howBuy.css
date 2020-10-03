@@ -54,6 +54,7 @@
   font-size: 22px;
   text-align: center;
   animation: fromShade 1.5s;
+  list-style: none;
 }
 .howBuy__container__list {
   display: flex;

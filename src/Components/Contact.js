@@ -93,7 +93,7 @@ const Contact = () => {
       <h2 className="component-description">
         Lub napisz bezpośrednio na maila: Zycie.na.bombie@tutanota.com <br />
         Zapraszamy również do śledzenia nas na Instagramie: <br />
-        <br /> <a href="https://www.instagram.com/zycie.na.bombie/">ŻYCIE NA BOMBIE</a>
+        <br /> <a href="https://www.instagram.com/zycie.na.bombie/"><button className='component-description__button'>Życie Na Bombie</button></a>
       </h2>
     </div>
   );
