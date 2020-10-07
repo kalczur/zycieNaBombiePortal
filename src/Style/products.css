@@ -16,8 +16,11 @@
   margin-top: 35px;
   font-family: 'Roboto';
   font-style: italic;
+  animation: fromShade 1.5s;
 }
-
+.dataTables_wrapper {
+  animation: fromShade 1s;
+}
 @media (max-width: 622px) {
   .products {
     padding: 2px;

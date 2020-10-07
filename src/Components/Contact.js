@@ -14,7 +14,7 @@ const Contact = () => {
     let mailState = {
       name: name,
       email: email,
-	  subject: subject,
+      subject: subject,
       message: message,
     };
 
@@ -26,7 +26,7 @@ const Contact = () => {
       data: mailState,
     }).then((response) => {
       resetForm();
-	  alert(response.data.message);
+      alert(response.data.message);
     });
   };
 
@@ -77,7 +77,12 @@ const Contact = () => {
             Temat
           </label>
           <br />
-          <input id="subject" type="text" className="contact__form__input" onChange={(e) => setSubject(e.target.value)} />
+          <input
+            id="subject"
+            type="text"
+            className="contact__form__input"
+            onChange={(e) => setSubject(e.target.value)}
+          />
         </div>
 
         <div className="contact__form__group">
