@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/zycieNaBombiePortal/precache-manifest.eef9ce01a177167606f695b6904d7f91.js"
+  "/zycieNaBombiePortal/precache-manifest.5280ff6a9b35371479855507ca5f754f.js"
 );
 
 self.addEventListener('message', (event) => {

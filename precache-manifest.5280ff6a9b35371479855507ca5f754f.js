@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "161b3807d8ca6539907e820439421d60",
+    "revision": "52fee40060d67e50071d01f7513a14bf",
     "url": "/zycieNaBombiePortal/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "55d8184d72bc8ce3895b",
-    "url": "/zycieNaBombiePortal/static/css/main.68308900.chunk.css"
+    "revision": "2e4d96d7fefbb140be42",
+    "url": "/zycieNaBombiePortal/static/css/main.6d403fb0.chunk.css"
   },
   {
     "revision": "33263a014b4dd026d1d0",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/zycieNaBombiePortal/static/js/2.143f0aaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "55d8184d72bc8ce3895b",
-    "url": "/zycieNaBombiePortal/static/js/main.10e838a7.chunk.js"
+    "revision": "2e4d96d7fefbb140be42",
+    "url": "/zycieNaBombiePortal/static/js/main.a37f5bfc.chunk.js"
   },
   {
     "revision": "affedfd1bd21a73564d4",
