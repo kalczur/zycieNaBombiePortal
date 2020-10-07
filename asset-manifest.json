@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/zycieNaBombiePortal/static/css/main.68308900.chunk.css",
-    "main.js": "/zycieNaBombiePortal/static/js/main.0d90fc30.chunk.js",
-    "main.js.map": "/zycieNaBombiePortal/static/js/main.0d90fc30.chunk.js.map",
+    "main.js": "/zycieNaBombiePortal/static/js/main.10e838a7.chunk.js",
+    "main.js.map": "/zycieNaBombiePortal/static/js/main.10e838a7.chunk.js.map",
     "runtime-main.js": "/zycieNaBombiePortal/static/js/runtime-main.9e4aeec8.js",
     "runtime-main.js.map": "/zycieNaBombiePortal/static/js/runtime-main.9e4aeec8.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.b7c20c5f.chunk.js": "/zycieNaBombiePortal/static/js/2.b7c20c5f.chunk.js",
-    "static/js/2.b7c20c5f.chunk.js.map": "/zycieNaBombiePortal/static/js/2.b7c20c5f.chunk.js.map",
+    "static/js/2.143f0aaf.chunk.js": "/zycieNaBombiePortal/static/js/2.143f0aaf.chunk.js",
+    "static/js/2.143f0aaf.chunk.js.map": "/zycieNaBombiePortal/static/js/2.143f0aaf.chunk.js.map",
     "index.html": "/zycieNaBombiePortal/index.html",
-    "precache-manifest.21eb4a049d60867b2919b013960a0142.js": "/zycieNaBombiePortal/precache-manifest.21eb4a049d60867b2919b013960a0142.js",
+    "precache-manifest.eef9ce01a177167606f695b6904d7f91.js": "/zycieNaBombiePortal/precache-manifest.eef9ce01a177167606f695b6904d7f91.js",
     "service-worker.js": "/zycieNaBombiePortal/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.68308900.chunk.css.map": "/zycieNaBombiePortal/static/css/main.68308900.chunk.css.map",
-    "static/js/2.b7c20c5f.chunk.js.LICENSE.txt": "/zycieNaBombiePortal/static/js/2.b7c20c5f.chunk.js.LICENSE.txt",
+    "static/js/2.143f0aaf.chunk.js.LICENSE.txt": "/zycieNaBombiePortal/static/js/2.143f0aaf.chunk.js.LICENSE.txt",
     "static/media/section.css": "/zycieNaBombiePortal/static/media/pexels-victor-freitas-949126.c4a9caf3.jpg",
     "static/media/doctor.png": "/zycieNaBombiePortal/static/media/doctor.0fc6bf6d.png",
     "static/media/howBuy.css": "/zycieNaBombiePortal/static/media/pexels-ketut-subiyanto-4246059.c31988cd.jpg",
@@ -22,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.9e4aeec8.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.b7c20c5f.chunk.js",
+    "static/js/2.143f0aaf.chunk.js",
     "static/css/main.68308900.chunk.css",
-    "static/js/main.0d90fc30.chunk.js"
+    "static/js/main.10e838a7.chunk.js"
   ]
 }

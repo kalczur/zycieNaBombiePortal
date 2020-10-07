@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "799ddd238202d89443cab9da12f243a0",
+    "revision": "161b3807d8ca6539907e820439421d60",
     "url": "/zycieNaBombiePortal/index.html"
   },
   {
-    "revision": "31f608bfeb9a79a76539",
+    "revision": "33263a014b4dd026d1d0",
     "url": "/zycieNaBombiePortal/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "747060dba1c33ad68500",
+    "revision": "55d8184d72bc8ce3895b",
     "url": "/zycieNaBombiePortal/static/css/main.68308900.chunk.css"
   },
   {
-    "revision": "31f608bfeb9a79a76539",
-    "url": "/zycieNaBombiePortal/static/js/2.b7c20c5f.chunk.js"
+    "revision": "33263a014b4dd026d1d0",
+    "url": "/zycieNaBombiePortal/static/js/2.143f0aaf.chunk.js"
   },
   {
     "revision": "d2966845b94a3318bf32eecc7af8015d",
-    "url": "/zycieNaBombiePortal/static/js/2.b7c20c5f.chunk.js.LICENSE.txt"
+    "url": "/zycieNaBombiePortal/static/js/2.143f0aaf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "747060dba1c33ad68500",
-    "url": "/zycieNaBombiePortal/static/js/main.0d90fc30.chunk.js"
+    "revision": "55d8184d72bc8ce3895b",
+    "url": "/zycieNaBombiePortal/static/js/main.10e838a7.chunk.js"
   },
   {
     "revision": "affedfd1bd21a73564d4",
